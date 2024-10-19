@@ -252,7 +252,7 @@ IPV6 ADDRESSING FOR THE ISP'S
 		
 		ipv6 unicast-routing
 		int e0/0
-		shutdown
+		 no shutdown
 		ipv6 en
 		ipv6 add 10:2:1:12::B00B/64
 		end
